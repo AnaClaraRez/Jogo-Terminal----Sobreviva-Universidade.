@@ -1,0 +1,276 @@
+{
+"questoes": {
+"muito_facil": [
+{
+"pergunta": "Qual é a definição de código-fonte?",
+"A": "A forma legível por humanos de um programa.",
+"B": "O conjunto de instruções binárias que o processador executa diretamente.",
+"C": "A interface gráfica com a qual o usuário final interage.",
+"D": "O arquivo executável que é instalado no computador.",
+"resposta": "A",
+"dica": "Pense em como um programador escreve suas ideias. Ele usa uma linguagem que ele entende, antes de qualquer tradução para o computador."
+},
+{
+"pergunta": "Qual das opções abaixo representa uma linguagem de programação de baixo nível?",
+"A": "Java",
+"B": "Python",
+"C": "C",
+"D": "HTML",
+"resposta": "C",
+"dica": "É uma linguagem próxima da linguagem de máquina, usada para controlar hardware com mais precisão."
+},
+{
+"pergunta": "Em linguagem C, qual é o comando usado para exibir uma mensagem na tela?",
+"A": "cin",
+"B": "echo",
+"C": "printf",
+"D": "print",
+"resposta": "C",
+"dica": "Esse comando vem da biblioteca <stdio.h>."
+},
+{
+"pergunta": "Qual é a extensão padrão dos arquivos de código fonte em C?",
+"A": ".exe",
+"B": ".h",
+"C": ".txt",
+"D": ".c",
+"resposta": "D",
+"dica": "Toda vez que você cria um programa em C, o nome do arquivo termina com essa extensão."
+}
+],
+"muito_facil2": [
+{
+"pergunta": "Qual é a principal função de um compilador?",
+"A": "Traduzir o código-fonte em linguagem de máquina.",
+"B": "Escrever o código-fonte para o programador.",
+"C": "Executar o programa diretamente no terminal.",
+"D": "Corrigir erros de lógica no código-fonte.",
+"resposta": "A",
+"dica": "Imagine que o programador fala 'português' (código-fonte) e o computador só entende 'binário' (linguagem de máquina). O que é necessário para que eles se comuniquem?"
+},
+{
+"pergunta": "No processo descrito, qual arquivo serve como entrada para o compilador 'gcc'?",
+"A": "informacoes.exe",
+"B": "informacoes.c",
+"C": "gcc",
+"D": "informacoes",
+"resposta": "B",
+"dica": "O compilador precisa do 'ingrediente' principal para trabalhar. Qual dos arquivos contém as instruções escritas pelo programador na linguagem C?"
+}
+],
+"facil": [
+{
+"pergunta": "Na linguagem C, qual a função do comando scanf()?",
+"A": "Exibir mensagens na tela.",
+"B": "Ler dados digitados pelo usuário.",
+"C": "Declarar variáveis.",
+"D": "Encerrar o programa.",
+"resposta": "B",
+"dica": "Se o usuário precisa digitar algo, esse comando entra em ação."
+},
+{
+"pergunta": "O que o comando 'gcc informacoes.c -o informacoes' realiza?",
+"A": "Abre o arquivo 'informacoes.c' para edição.",
+"B": "Renomeia o arquivo 'informacoes.c' para 'informacoes'.",
+"C": "Compila 'informacoes.c' e gera um executável chamado 'informacoes'.",
+"D": "Executa o programa que está dentro do arquivo 'informacoes.c'.",
+"resposta": "C",
+"dica": "Analise cada parte do comando. 'gcc' é o programa, 'informacoes.c' é o que ele vai processar. A parte '-o' é uma abreviação para 'output' (saída). O que isso indica?"
+},
+{
+"pergunta": "No GitHub, o que é um “repositório”?",
+"A": "Um programa para compilar código",
+"B": "Um local onde o código é armazenado e versionado",
+"C": "Um tipo de variável global",
+"D": "Um comando do Git",
+"resposta": "B",
+"dica": "É como uma “pasta online” que guarda o seu projeto."
+}
+],
+"facil2": [
+{
+"pergunta": "Qual destes tipos de dado em C é usado para armazenar apenas um caractere?",
+"A": "int",
+"B": "float",
+"C": "char",
+"D": "double",
+"resposta": "C",
+"dica": "Pense em algo como uma única letra, por exemplo 'A' ou 'b'."
+},
+{
+"pergunta": "Qual função em C é usada para ler um valor digitado pelo usuário?",
+"A": "read()",
+"B": "scanf()",
+"C": "input()",
+"D": "get()",
+"resposta": "B",
+"dica": "Essa função geralmente vem acompanhada de &variável."
+}
+],
+"medio": [
+{
+"pergunta": "Por que a função fgets() é geralmente preferível à scanf() para ler uma linha inteira de texto do usuário?",
+"A": "Porque scanf() não consegue ler números, apenas texto.",
+"B": "Porque fgets() permite especificar um tamanho máximo para a leitura, prevenindo estouro de buffer, enquanto scanf() com %s para no primeiro espaço em branco.",
+"C": "Porque fgets() é mais rápida e consome menos memória que scanf().",
+"D": "Porque scanf() só funciona para ler dados de arquivos, e não do teclado.",
+"resposta": "B",
+"dica": "Considere o que acontece se um usuário digitar um nome completo, como 'João Silva'. Como o scanf() se comporta com o espaço? E o que aconteceria se o usuário digitasse um texto muito, muito longo?"
+},
+{
+"pergunta": "Como funciona a estrutura if-else em C?",
+"A": "Repete um bloco de código até uma condição ser falsa.",
+"B": "Escolhe entre executar um bloco de código ou outro dependendo da condição.",
+"C": "Serve para declarar variáveis em tempo de execução.",
+"D": "É usada apenas para calcular valores matemáticos.",
+"resposta": "B",
+"dica": "Imagine um “caminho” com duas possibilidades: se for verdadeiro, vai para um lado; se não, vai para o outro."
+},
+{
+"pergunta": "Qual biblioteca deve ser incluída para usar as funções printf() e scanf()?",
+"A": "<stdlib.h>",
+"B": "<math.h>",
+"C": "<stdio.h>",
+"D": "<string.h>",
+"resposta": "C",
+"dica": "O nome vem de Standard Input Output."
+},
+{
+"pergunta": "O que o comando git clone faz?",
+"A": "Cria um novo repositório local",
+"B": "Envia arquivos para o GitHub",
+"C": "Copia um repositório remoto para sua máquina",
+"D": "Remove um repositório",
+"resposta": "C",
+"dica": "É o primeiro passo para começar a trabalhar com um projeto que já existe no GitHub."
+}
+],
+"medio2": [
+{
+"pergunta": "Qual é a principal diferença entre o arquivo 'informacoes.c' e o arquivo 'informacoes.exe'?",
+"A": "O primeiro é legível por humanos e o segundo é legível pela máquina.",
+"B": "Não há diferença, são apenas nomes diferentes para o mesmo arquivo.",
+"C": "O primeiro funciona em Linux e o segundo em Windows.",
+"D": "O primeiro é o programa e o segundo são as instruções de compilação.",
+"resposta": "A",
+"dica": "Pense em quem consegue entender o conteúdo de cada arquivo. Um deles é para o programador ler e escrever, o outro é para o processador executar."
+},
+{
+"pergunta": "Você fez alterações em um repositório Git local e deseja enviá-las para um repositório remoto no GitHub. Qual comando Git você deve utilizar para enviar essas alterações?",
+"A": "git pull",
+"B": "git push",
+"C": "git commit",
+"D": "git clone",
+"resposta": "B",
+"dica": "Esse comando atualiza o repositório remoto com os commits que você fez localmente, sem alterar nada do seu repositório local."
+}
+],
+"dificil": [
+{
+"pergunta": "Qual a diferença entre variáveis int e float em C?",
+"A": "int guarda números inteiros e float guarda números decimais.",
+"B": "int guarda textos e float guarda números.",
+"C": "int é usado apenas em loops e float em cálculos.",
+"D": "Não há diferença, ambos armazenam números iguais.",
+"resposta": "A",
+"dica": "Pense em “idade” (número inteiro) e “altura” (número com vírgula)."
+},
+{
+"pergunta": "O que a função printf() oferece que a puts() e a fputs() não oferecem?",
+"A": "A capacidade de escrever em arquivos.",
+"B": "A capacidade de adicionar uma quebra de linha automaticamente.",
+"C": "A capacidade de formatar a saída, mesclando texto literal com valores de variáveis de diferentes tipos (int, float, etc.).",
+"D": "A capacidade de imprimir strings sem formatação.",
+"resposta": "C",
+"dica": "O 'f' em printf() vem de 'formatado'. O que isso permite fazer com variáveis de diferentes tipos na hora de exibir uma mensagem?"
+},
+{
+"pergunta": "Em C, qual é o resultado da expressão 5 / 2 considerando que ambos são inteiros?",
+"A": "2.5",
+"B": "3",
+"C": "2",
+"D": "Erro de compilação",
+"resposta": "C",
+"dica": "Divisão entre inteiros ignora a parte decimal."
+},
+{
+"pergunta": "O que o comando git commit -m mensagem faz?",
+"A": "Cria um novo branch",
+"B": "Salva as alterações com uma mensagem descritiva",
+"C": "Deleta o repositório",
+"D": "Envia os arquivos para o GitHub automaticamente",
+"resposta": "B",
+"dica": "É como “salvar um checkpoint” no histórico do seu projeto."
+}
+],
+"dificil2": [
+{
+"pergunta": "Se você compilasse o mesmo código-fonte em um computador com Windows e em outro com macOS, por que o arquivo executável gerado no Windows ('informacoes.exe') provavelmente não funcionaria no macOS?",
+"A": "Porque o compilador 'gcc' não existe para macOS.",
+"B": "Porque o código-fonte precisa ser escrito de forma diferente para cada sistema.",
+"C": "Porque o processo de compilação traduz o código para a linguagem de máquina específica da arquitetura e do sistema operacional.",
+"D": "Porque o macOS não permite a execução de arquivos que não venham de sua loja de aplicativos oficial.",
+"resposta": "C",
+"dica": "Pense no resultado da compilação como uma tradução. Se você traduz um livro para o 'dialeto' falado no Windows, uma pessoa que só entende o 'dialeto' do macOS conseguirá compreendê-lo?"
+}
+],
+"muito_dificil": [
+{
+"pergunta": "Qual é a diferença fundamental entre uma variável e o seu endereço?",
+"A": "A variável guarda um valor (o conteúdo da 'caixa'), enquanto o endereço indica a localização dessa 'caixa' na memória.",
+"B": "A variável é um número inteiro e o endereço é um número com casas decimais.",
+"C": "A variável é criada pela função printf e o endereço pela função scanf.",
+"D": "Não há diferença, os dois termos significam a mesma coisa.",
+"resposta": "A",
+"dica": "Imagine que a memória do computador é uma rua cheia de casas. A variável seria o que está dentro de uma casa, e o endereço seria... o quê?"
+},
+{
+"pergunta": "O que caracteriza um loop infinito em C?",
+"A": "Quando o programa não tem nenhuma condição.",
+"B": "Quando a condição de parada nunca é satisfeita.",
+"C": "Quando o usuário não digita nada no teclado.",
+"D": "Quando há muitos printf() seguidos.",
+"resposta": "B",
+"dica": "Se a condição de parada nunca se torna falsa, o laço de repetição nunca para de executar."
+},
+{
+"pergunta": "Qual é a principal diferença entre ponteiro e variável comum em C?",
+"A": "Ponteiro guarda o endereço de memória, variável guarda o valor",
+"B": "Ponteiro é mais rápido",
+"C": "Ponteiro não usa memória",
+"D": "Variável guarda o endereço, ponteiro guarda o valor",
+"resposta": "A",
+"dica": "Pense no ponteiro como um “mapa” que mostra onde o valor está guardado."
+},
+{
+"pergunta": "O que o comando git merge faz em um projeto no GitHub?",
+"A": "Cria uma nova branch",
+"B": "Junta as alterações de uma branch em outra",
+"C": "Exclui uma branch",
+"D": "Faz backup automático",
+"resposta": "B",
+"dica": "É usado quando você quer combinar o trabalho de duas linhas de desenvolvimento."
+}
+],
+"muito_dificil2": [
+{
+"pergunta": "Qual a principal vantagem de usar branches no GitHub?",
+"A": "Permitem apagar código sem afetar o projeto principal.",
+"B": "Servem apenas para organizar pastas dentro do repositório.",
+"C": "Permitem desenvolver novas funcionalidades sem alterar o código principal.",
+"D": "Fazem backup automático de commits.",
+"resposta": "C",
+"dica": "É como criar uma 'cópia' do código para testar mudanças sem quebrar o projeto oficial."
+},
+{
+"pergunta": "Em C, quando uma variável do tipo `int` é declarada dentro do corpo de um bloco de código (delimitado por chaves `{}`), como é o caso de uma variável declarada dentro de um loop `for` ou `while`, o que acontece com essa variável quando o bloco de código é finalizado?",
+"A": "A variável é mantida na Stack (Pilha), mas seu valor se torna inacessível (não mais visível) até que o bloco seja executado novamente.",
+"B": "A variável é automaticamente criada (alocada na Stack) quando o bloco começa e é automaticamente destruída (desalocada da Stack) quando o bloco termina.",
+"C": "A variável é movida para o Heap e deve ser liberada manualmente com `free()` na próxima vez que o bloco for executado.",
+"D": "A variável persiste com seu último valor, mas seu escopo (visibilidade) é restrito a esse bloco, evitando conflitos de nomes.",
+"resposta": "B",
+"dica": "Variáveis declaradas em blocos internos possuem 'escopo de bloco' e 'tempo de vida automático'."
+}
+]
+}
+}
